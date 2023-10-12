@@ -51,10 +51,12 @@
 
 .app-store {
     width: 28%;
+    cursor: pointer;
 }
 
 .play-store {
     width: 28%;
+    cursor: pointer;
 }
 
 .step1-img {
@@ -116,16 +118,15 @@
     padding: 5px 200px;
 }
 
-li {
-    list-style: none;
-    color: white;
-    font-size: 17px;
+.navbar a{
+    color: #e9f0de;
 }
-
-.collapse {
-    padding-left: 180px;
+.navbar-position{
+    margin-right: 100px;
 }
-
+.navbar{
+    font-size: 18px;
+}
 .header {
     position: fixed;
     left: 0;
@@ -189,8 +190,12 @@ li {
     font-size: 25px;
 }
 #fifth{
-    background-color: #F9FBF6;
+    background-color: #e9f0de;
 }
+.testmonials{
+    margin-top: 30px;
+}
+
 
 @media screen and (min-width:375px) and (max-width:576px) {
 
@@ -299,6 +304,14 @@ li {
         width: 21%;
         padding-bottom: 70px;
     }
+    #footer p {
+        color: aliceblue;
+        font-size: 10px;
+    }
+    .nav-link active{
+        color: white;
+    }
+    
 }
 
 @media screen and (min-width:577px) and (max-width:991px) {
@@ -312,9 +325,8 @@ li {
         margin: 38px 0px 0px 41px;
 
     }
-
-    .collapse {
-        padding-left: 80px;
+    .navbar-position{
+        margin-right: 0px;
     }
 
     .font {
@@ -329,10 +341,10 @@ li {
     }
 
     .banner-right {
-        width:56%;
+        width:50%;
         padding: 87px 35px 0px 0px;
-        margin-right: 40px;
-        margin-right: 105px
+       margin-left: 80px;
+       margin-right: 80px;
     }
     .testh11 {
         font-size: 26px;
@@ -394,6 +406,9 @@ li {
         width: 28%;
         padding-bottom: 68px;
     }
+    .navbar {
+        font-size: 14px;
+    }
 }
 
 @media screen and (min-width:1800px) and (max-width:2561px) {
@@ -446,11 +461,7 @@ li {
     .step1-img {
         width: 67%;
     }
-    li {
-        list-style: none;
-        color: white;
-        font-size: 44px;
-    }
+
     .propawnfeature{
         font-size: 60px;
         font-weight: bold;
@@ -485,5 +496,20 @@ li {
     .testmonials{
         font-size: 50px;
     }
-    
+    #footer p {
+        color: aliceblue;
+        width: 54%;
+    }
+    #about {
+        padding: 80px 150px;
+    }
+    .navbar a{
+        color: #e9f0de;
+    }
+    .navbar-position{
+        margin-right: 250px;
+    }
+    .navbar{
+        font-size: 40px;
+    }
 }

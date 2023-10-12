@@ -28,42 +28,39 @@
                         <img class="top-logo" src="./images/logo-pro.png">
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-6 col-3 col-xl-6 ">
-
-                        <nav class="navbar navbar-expand-md  
-                        navbar-dark ">
-
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
-                                aria-label="Toggle navigation">
+                        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark  navbar-position"
+                        aria-label="Offcanvas navbar large">
+                        
+                           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarToggler">
-
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#second">
-                                            Home
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#third">
-                                            how its work
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#fourth">
-                                            About
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">
-                                            Contact
-                                        </a>
-                                    </li>
-                                </ul>
+                            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                                aria-labelledby="offcanvasNavbar2Label">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#second">How it works</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#third">About us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#fifth">Contact us</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         
-                        </nav>
+                    </nav>
+                       
                     </div>
                 </div>
             </div>
@@ -78,9 +75,12 @@
                             easy-to-use Mobile APP gets you the cash faster than anyone. For over 30 years, Propawn has
                             been serving our community and we will continue to resolve South Florida's quick cash needs.
                         </p>
-                        
-                        <img class="app-store" src="./images/appstore.png" alt="picture">
-                        <img class="play-store" src="./images/playstore.png" alt="picture">
+                        <a href="index.html" target="_blank">
+                            <img class="app-store" src="./images/appstore.png" alt="picture">
+                        </a>
+                        <a href="index.html" target="_blank">
+                            <img class="play-store" src="./images/playstore.png" alt="picture">
+                        </a>
                     </div>
                     <div class="col-md-6 col-lg-6">
                         <img class="banner-right" src="./images/banner-right.png">
@@ -302,7 +302,8 @@
         </div>
     </section>
     <section id="fourth">
-        <h3 class="text-center py-5 teams">Our Team</h3>
+        <h3 class="text-center pt-5 teams">Our Team</h3>
+        <div class="rectangle mb-4"></div>
         <div class="team">
             <div class="container">
                 <div class="row">
