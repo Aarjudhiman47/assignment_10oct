@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.main-div {
+    background-image: url("./images/landing-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.top-logo {
+    margin-left: 250px;
+    width: 181px;
+    padding-top: 10px;
+}
+
+#second {
+    background-image: url("./images/Bg-features.png");
+    padding: 5px 200px;
+    background-size: 100% 100%;
+}
+
+#second p {
+    font-size: 13px;
+}
+
+.rectangle {
+    background-color: #81AF85;
+    width: 110px;
+    height: 4px;
+    margin: auto;
+}
+
+.rectangle1 {
+    background-color: #81AF85;
+    width: 50px;
+    height: 4px;
+}
+
+.rowone {
+    padding: 58px 250px;
+}
+
+.banner-right {
+    width: 75%;
+    margin-left: 160px;
+    margin-top: 18px;
+}
+
+.app-store {
+    width: 28%;
+}
+
+.play-store {
+    width: 28%;
+}
+
+.step1-img {
+    width: 80%;
+}
+
+#footer {
+    background-image: url("./images/footer-bg.png");
+    background-size: 100% cover;
+}
+
+#footer p {
+    color: aliceblue;
+}
+
+.team-1 {
+    border-radius: 3px 3px 0px 0px;
+    width: 100%;
+}
+
+.team-2 {
+    border-radius: 84px 4px;
+    width: 100%;
+}
+
+#fourth {
+    padding: 5px 200px;
+}
+
+.team-img {
+    width: 100%;
+}
+
+#footer {
+    padding: 5px 180px;
+}
+
+.right-footer {
+    margin-top: 50px;
+}
+
+.footer-1 {
+    column-gap: 40px;
+}
+
+.icon {
+    width: 7%;
+}
+
+.footer-right {
+    padding-top: 80px;
+}
+
+.footer-logo {
+    padding-top: 27px;
+}
+
+#third {
+    padding: 5px 200px;
+}
+
+li {
+    list-style: none;
+    color: white;
+    font-size: 17px;
+}
+
+.collapse {
+    padding-left: 180px;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.font {
+    font-size: 14px;
+
+}
+
+.content-width {
+    width: 458px;
+    font-size: 15px;
+}
+
+.step-para {
+    font-size: 22px;
+}
+
+.steps-para1 {
+    font-size: 15px;
+
+}
+
+.testh11 {
+    font-size: 26px;
+    padding-top: 4%;
+    padding-left: 50px;
+}
+
+.parap {
+    font-size: 18px;
+    padding-left: 45px;
+}
+
+.testp {
+    text-align: center;
+
+    font-size: 15px;
+}
+
+.carousel-inner {
+    box-shadow: 1px 1px 20px;
+    width: 80%;
+}
+
+.arrow {
+    margin-right: 70%;
+}
+
+.arrow1 {
+    margin-left: 70%;
+}
+
+#about {
+    padding: 5px 150px;
+}
+.step-heading{
+    font-size: 25px;
+}
+#fifth{
+    background-color: #F9FBF6;
+}
+
+@media screen and (min-width:375px) and (max-width:576px) {
+
+    .main-div {
+        background-image: url("./images/landing-bg.png");
+        /* background-size: 100% 100%; */
+        background-size: cover;
+
+    }
+
+    .top-logo {
+        margin-left: 20px;
+    }
+
+    .propawn-feature {
+        margin-left: 5px;
+    }
+
+    .step-heading {
+        text-align: center;
+    }
+
+    .rectangle1 {
+        background-color: #81AF85;
+        width: 50px;
+        height: 4px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .step1-img {
+        margin-left: 88px;
+        width: 50%;
+    }
+
+    .navbar {
+        background-color: black;
+        color: aliceblue;
+    }
+
+    #second {
+        background-image: url("./images/Bg-features.png");
+        background-size: 100% 100%;
+        padding: 5px 10px;
+    }
+
+    #second p {
+        font-size: 11px;
+    }
+
+    #third {
+        padding: 5px 10px;
+    }
+
+    #fourth {
+        padding: 5px 10px;
+    }
+
+    #footer {
+        padding: 5px 10px;
+    }
+
+    .rowone {
+        padding: 5px 10px;
+    }
+
+    .banner-right {
+        display: none;
+    }
+
+    .team-img {
+        width: 80%;
+        margin: auto;
+    }
+
+    #about {
+        padding: 5px 10px;
+    }
+
+    .testp {
+        text-align: center;
+        padding: 0% 5% 2% 5%;
+
+    }
+
+    .step-para {
+        text-align: center;
+
+    }
+
+    .top-headings {
+        margin-top: 40px;
+    }
+
+    .font {
+        font-size: 12px;
+    }
+
+    .app-store {
+        width: 21%;
+        padding-bottom: 71px;
+        margin-left: 43px;
+    }
+
+    .play-store {
+        width: 21%;
+        padding-bottom: 70px;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:991px) {
+    .main-div {
+        background-image: url("./images/landing-bg.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .top-headings {
+        margin: 38px 0px 0px 41px;
+
+    }
+
+    .collapse {
+        padding-left: 80px;
+    }
+
+    .font {
+        margin-left: 40px;
+        font-size: 10px;
+    }
+
+    #second {
+        background-image: url("./images/Bg-features.png");
+        background-size: 100% 100%;
+        padding: 5px 10px;
+    }
+
+    .banner-right {
+        width:56%;
+        padding: 87px 35px 0px 0px;
+        margin-right: 40px;
+        margin-right: 105px
+    }
+    .testh11 {
+        font-size: 26px;
+        padding-top: 4%;
+        padding-left: 83px;
+    }
+    .parap {
+        font-size: 14px;
+        padding-left: 84px;
+    }
+    .top-logo {
+        margin-left: 50px;
+    }
+
+    #about {
+        padding: 4px 0px;
+    }
+
+    #second p {
+        font-size: 7px;
+    }
+
+    #third {
+        padding: 5px 10px;
+    }
+
+    #fourth {
+        padding: 5px 10px;
+    }
+
+    #footer {
+        padding: 5px 10px;
+    }
+
+    .rowone {
+        padding: 5px 10px;
+    }
+
+    .team-img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .content-width {
+        font-size: 10px;
+    }
+
+    .topnav {
+        display: none;
+    }
+
+    .app-store {
+        width: 28%;
+        margin-left: 47px;
+        padding-bottom: 70px;
+    }
+
+    .play-store {
+        width: 28%;
+        padding-bottom: 68px;
+    }
+}
+
+@media screen and (min-width:1800px) and (max-width:2561px) {
+    .top-headings {
+        font-size: 64px;
+        margin-top: 80px;
+        font-weight: bold;
+    }
+    .parap {
+        font-size: 26px;
+        padding-left: 45px;
+    }
+    .font{
+        font-size: 31px;
+    }
+    .top-logo {
+        margin-left: 250px;
+        width: 30%;
+        padding-top: 10px;
+    }
+    .banner-right {
+        width: 53%;
+      margin-right: 30%;
+      margin-top:92px;
+    }
+    #second p {
+        font-size: 24px;
+    }
+    .heading{
+        font-size:40px;
+    }
+    .propawn-img{
+        width:10%;
+    }
+    .steppara{
+        font-size:32px;
+        width:80%;
+    }
+    .step-para {
+        font-size: 52px;
+    }
+    .steps-para1 {
+        font-size: 31px;
+        width: 80%;
+    }
+    .testp {
+        text-align: center;
+        font-size: 31px;
+    }
+    .step1-img {
+        width: 67%;
+    }
+    li {
+        list-style: none;
+        color: white;
+        font-size: 44px;
+    }
+    .propawnfeature{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .teams{
+        font-size: 48px;
+    }
+   .testh11 {
+        font-size: 30px;
+        padding-top: 4%;
+        padding-left: 100px;
+    }
+    .rectangle {
+        background-color: #81AF85;
+        width: 204px;
+        height: 8px;
+        margin: auto;
+    }
+    .rectangle1 {
+        background-color: #81AF85;
+        width: 80px;
+        height: 10px;
+    }
+    .step-heading{
+        font-size:59px;
+    }
+    .testh11 {
+        font-size: 40px;
+        padding-top: 4%;
+        padding-left: 24px;
+    }
+    .testmonials{
+        font-size: 50px;
+    }
+    .icon {
+        width: 4%;
+    }
+}
